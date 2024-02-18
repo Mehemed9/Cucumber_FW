@@ -13,7 +13,7 @@ Feature: TalentTEK Signup Feature
       And student enter their date of birth Month "Feb"
       And student enter their date of birth Day "1"
       And student enter their date of birth Year "1995"
-      And student choose their gender "Male"
+      And student choose their gender
       And student agree terms and conditions
       When student click on create my account button
       Then student should successfully create their account

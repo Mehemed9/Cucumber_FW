@@ -2,11 +2,9 @@ package stepDef;
 
 import base.config;
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
-
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
@@ -64,12 +62,11 @@ public class signup_step extends config {
     }
 
 
-    @And("student choose their gender {string}")
-    public void studentChooseTheirGender(String enterGender)  {
-        String beforeValue = "//input[@id='";
-        String afterValue = "']";
-        String fullValue = beforeValue+enterGender+afterValue;
-        driver.findElement(By.xpath(fullValue)).click();
+    @And("student choose their gender")
+    public void studentChooseTheirGender() {
+        driver.findElement(By.xpath("//*[@id=\"male\"]")).click();
+
+
     }
 
 
