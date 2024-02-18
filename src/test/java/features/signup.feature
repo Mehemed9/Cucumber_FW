@@ -7,7 +7,7 @@ Feature: TalentTEK Signup Feature
 
       And  student enter their First Name"NAHID"
       And student enter their Last Name "Mehmed"
-      And student enter their Email Address "Nahid12@gmail.com"
+      And student enter their Email Address "Nahid121@gmail.com"
       And student enter their password "123456"
       And student confirm their password "123456"
       And student enter their date of birth Month "Feb"

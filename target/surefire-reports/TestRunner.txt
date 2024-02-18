@@ -1,15 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.352 s <<< FAILURE! - in TestRunner
-TestRunner.runScenario["student enter their valid information to create new account.", "TalentTEK Signup Feature"](1)  Time elapsed: 4.835 s  <<< FAILURE!
-java.lang.AssertionError: expected [] but found [Success!]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at stepDef.signup_step.studentShouldSuccessfullyCreateTheirAccount(signup_step.java:88)
-	at ✽.student should successfully create their account(file:///Users/raymondmurad/Documents/TalentTEK/Cucumber_FW/src/test/java/features/signup.feature:19)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.264 s - in TestRunner

@@ -82,8 +82,9 @@ public class signup_step extends config {
     }
 
     @Then("student should successfully create their account")
-    public void studentShouldSuccessfullyCreateTheirAccount() {
+    public void studentShouldSuccessfullyCreateTheirAccount() throws InterruptedException {
         String actual = "Success!";
+        Thread.sleep(1000);
         String expected= driver.findElement(By.xpath("/html/body/div[2]/div/div[2]")).getText();
         Assert.assertEquals(actual,expected);
     }
